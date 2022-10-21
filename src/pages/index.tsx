@@ -2,7 +2,7 @@ import * as React from "react"
 import type { HeadFC } from "gatsby"
 
 type BigTitleProps = {
-  children: JSX.Element,
+  children: React.ReactNode,
 };
 export const BigTitle = ({ children }: BigTitleProps) => (<h1 className="text-5xl lg:text-6xl font-serif text-white mb-6 tracking-wide">
   {children}
