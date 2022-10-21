@@ -22,20 +22,7 @@ const config: GatsbyConfig = {
         background_color: websiteConfig.backgroundColor,
         theme_color: websiteConfig.themeColor,
         display: 'standalone',
-        icon: "src/static/favicons/favicon-32x32.png",
-        icons: [
-          {
-            src: 'src/static/favicons/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
-          },
-          {
-            src: 'src/static/favicons/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-          },
-        ],
-
+        icon: "src/static/logo.jpg",
       }
     },
     'gatsby-plugin-postcss',
