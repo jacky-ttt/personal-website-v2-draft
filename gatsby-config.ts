@@ -1,4 +1,4 @@
-import { GatsbyConfig, withPrefix } from "gatsby";
+import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -21,14 +21,15 @@ const config: GatsbyConfig = {
         background_color: "#a0d8f1",
         theme_color: "#e07628",
         display: 'standalone',
-        icon: withPrefix(`/favicon-32x32.png`),
+        icon: "src/images/favicons/favicon-32x32.png",
         icons: [
           {
-            src: withPrefix(`/android-chrome-192x192.png`),
+            src: 'src/images/favicons/android-chrome-192x192.png',
+            sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: withPrefix(`/android-chrome-512x512.png`),
+            src: 'src/images/favicons/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png',
           },
