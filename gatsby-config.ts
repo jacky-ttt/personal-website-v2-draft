@@ -25,7 +25,9 @@ const config: GatsbyConfig = {
         icon: "src/static/logo.jpg",
       }
     },
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-robots-txt",
+    "gatsby-plugin-offline",
   ]
 };
 
