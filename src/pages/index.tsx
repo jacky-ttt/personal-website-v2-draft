@@ -55,7 +55,6 @@ const IndexPage = () => {
             gradientBg="bg-gradient-to-r from-violet-800 to-fuchsia-500" />
         </div>
       </div>
-
     </main>
   )
 }
