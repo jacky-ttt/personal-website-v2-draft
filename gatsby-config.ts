@@ -3,8 +3,8 @@ import websiteConfig from "./src/config/config"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Tsang Sze Chun`,
-    siteUrl: `https://tsangszechun.com`
+    title: websiteConfig.siteTitle,
+    siteUrl: websiteConfig.siteUrl
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
       options: {
         name: websiteConfig.siteTitle,
         short_name: websiteConfig.siteTitleShort,
-        description: "Personal website of Tsang Sze Chun",
+        description: websiteConfig.siteDescription,
         start_url: "/",
         background_color: websiteConfig.backgroundColor,
         theme_color: websiteConfig.themeColor,
