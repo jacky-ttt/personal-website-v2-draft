@@ -21,15 +21,15 @@ const config: GatsbyConfig = {
         background_color: "#a0d8f1",
         theme_color: "#e07628",
         display: 'standalone',
-        icon: "src/images/favicons/favicon-32x32.png",
+        icon: "src/static/favicons/favicon-32x32.png",
         icons: [
           {
-            src: 'src/images/favicons/android-chrome-192x192.png',
+            src: 'src/static/favicons/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'src/images/favicons/android-chrome-512x512.png',
+            src: 'src/static/favicons/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png',
           },
