@@ -1,4 +1,5 @@
 import type { GatsbyConfig } from "gatsby";
+import websiteConfig from "./src/config/config"
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -14,12 +15,12 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "Tsang Sze Chun",
-        short_name: "Jacky Tsang",
+        name: websiteConfig.siteTitle,
+        short_name: websiteConfig.siteTitleShort,
         description: "Personal website of Tsang Sze Chun",
         start_url: "/",
-        background_color: "#a0d8f1",
-        theme_color: "#e07628",
+        background_color: websiteConfig.backgroundColor,
+        theme_color: websiteConfig.themeColor,
         display: 'standalone',
         icon: "src/static/favicons/favicon-32x32.png",
         icons: [
